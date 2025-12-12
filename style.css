@@ -89,11 +89,11 @@ header {
 
 .container {
   width: 500px;
-  min-height: 50vh;
   margin: 5rem auto;
   background: var(--panel);
   color: var(--text-primary);
   padding: 20px;
+  flex: 1;
 }
 
 .clock {
@@ -113,6 +113,11 @@ header {
 .time__and_meridian h3 {
   font-size: px;
   letter-spacing: 7px;
+}
+.time-indicator {
+    text-align: center;
+    margin-top: 2rem;
+    opacity: 0.5;
 }
 
 /* Responsive styles */
@@ -154,13 +159,12 @@ header {
   color: white;
   text-align: center;
   padding: 20px;
-  margin-top: 50px;
 }
 
 .whatsapp-link {
   display: inline-block;
   margin-top: 10px;
-  padding: 10px 20px;
+  padding: 5px 20px;
   background-color: #25d366; /* WhatsApp green */
   color: white;
   text-decoration: none;
