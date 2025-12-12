@@ -86,6 +86,35 @@ header {
   transition: all 0.3s;
 }
 
+
+.container {
+  width: 500px;
+  min-height: 50vh;
+  margin: 5rem auto;
+  background: var(--panel);
+  color: var(--text-primary);
+  padding: 20px;
+}
+
+.clock {
+  padding: 10px;
+  margin: 2rem 0;
+}
+
+.time__display__screen {
+  border: 1px solid var(--text-secondary);
+  padding: 10px;
+}
+
+.time__display__screen .time__and_meridian {
+  display: flex;
+}
+
+.time__and_meridian h3 {
+  font-size: px;
+  letter-spacing: 7px;
+}
+
 /* Responsive styles */
 @media screen and (max-width: 768px) {
   .nav-links {
@@ -112,35 +141,12 @@ header {
   .hamburger {
     display: flex;
   }
+
+  .container {
+    width: 390px;
+  }
 }
 
-.container {
-  width: 400px;
-  min-height: 50vh;
-  margin: 5rem auto;
-  background: var(--panel);
-  color: var(--text-primary);
-  padding: 20px;
-}
-
-.clock {
-  padding: 10px;
-  margin: 2rem 0;
-}
-
-.time__display__screen {
-  border: 1px solid var(--text-secondary);
-  padding: 10px;
-}
-
-.time__display__screen .time__and_meridian {
-  display: flex;
-}
-
-.time__and_meridian h3 {
-  font-size: px;
-  letter-spacing: 7px;
-}
 
 /* Footer styles */
 .footer {
