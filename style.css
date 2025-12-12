@@ -87,13 +87,16 @@ header {
 }
 
 
+main {
+      flex: 1;
+}
 .container {
   width: 500px;
   margin: 5rem auto;
   background: var(--panel);
   color: var(--text-primary);
   padding: 20px;
-  flex: 1;
+
 }
 
 .clock {
