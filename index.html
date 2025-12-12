@@ -1,31 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Clock</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="clock">
-            <h3>Digital Clock</h3>
-
-            <div class="time__display__screen">
-                <div class="time__and_meridian">
-                    <h3  id="time">
-                        <span class="hour">12</span>
-                        <span class="mins">00</span>
-                        <span class="secs">00</span>
-                    </h3>
-                   
-                </div>
-            </div>
-            <p class="footer">12 Hours Time</p>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <header>
+      <nav class="navbar">
+        <div class="logo">JS Projects</div>
+        <ul class="nav-links">
+          <li><a href="https://timepanel.netlify.app/">Digital clock</a></li>
+          <li><a href="https://quickcalculatoronline.netlify.app/">Calculator</a></li>
+          <li><a href="https://todoni.netlify.app/">Todo App</a></li>
+          <li><a href="https://voicefromtext.netlify.app/">TTSpeech</a></li>
+        </ul>
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
         </div>
+      </nav>
+    </header>
+
+    <div class="container">
+        <h1>Digital Clock</h1>
+      <div class="clock">
+
+        <div class="time__display__screen">
+          <div class="time__and_meridian">
+            <h3 id="time">
+              <span class="hour">12</span>
+              <span class="mins">00</span>
+              <span class="secs">00</span>
+            </h3>
+          </div>
+        </div>
+        <p class="footer">12 Hours Time</p>
+      </div>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
+
+  <footer class="footer">
+  <p>Contact us on WhatsApp:</p>
+  <a href="https://wa.me/2349068155992" target="_blank" class="whatsapp-link">
+    Chat with us
+  </a>
+</footer>
+
 </html>
